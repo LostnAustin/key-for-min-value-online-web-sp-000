@@ -8,8 +8,6 @@ def key_for_min_value(hash)
       hash.delete_at(0)
       break
     end
-
-
  "#{a}"
 end
 end
