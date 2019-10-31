@@ -9,7 +9,7 @@ def key_for_min_value(hash)
   hash.collect do |name, value|
     if value[1] < default
       default = value[1]
-      default_key = value[0]
+      default_key = name[0]
 
     # name <=> value
   #  name
