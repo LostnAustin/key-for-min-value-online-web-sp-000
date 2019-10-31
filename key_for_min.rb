@@ -22,5 +22,5 @@ end
 
 
 #The way I have mine set up is with 2 variables to use to compare everything
- #in the loop to. If your value is lower than that variable, 
+ #in the loop to. If your value is lower than that variable,
  #reassign the variable to that new lower value
