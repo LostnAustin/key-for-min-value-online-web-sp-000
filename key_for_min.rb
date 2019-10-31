@@ -6,7 +6,6 @@ def key_for_min_value(hash)
   hash.collect do |a, b|
     if a > b
       hash.delete_at(0)
-      break
     end
  hash
 end
