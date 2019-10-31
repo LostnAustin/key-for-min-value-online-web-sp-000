@@ -7,7 +7,7 @@ def key_for_min_value(hash)
     if a > b
       hash.delete_at(0)
     elsif a < b
-      hash.pop(b)
+      hash.delete_at(1)
 
     end
  "#{a}"
