@@ -7,7 +7,7 @@ def key_for_min_value(hash)
     return  hash[a] = b
 
     end
- "#{a}"
+# "#{a}"
 end
 end
 # iterate through the hash array, collecting key(name) value(value) and index
