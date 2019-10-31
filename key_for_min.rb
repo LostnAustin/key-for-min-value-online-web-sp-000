@@ -6,8 +6,9 @@ def key_for_min_value(hash)
   default_key = 0
 
   hash.collect do |name, value|
-
-  if value < default
+    if hash.length == 0
+      return nil
+    if value < default
       default = value
       default_key = name
     end
