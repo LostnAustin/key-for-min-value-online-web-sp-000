@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
   hash.collect do |a, b|
-    if a > b
+    if a <=> b
       hash[a] = b
 
     end
