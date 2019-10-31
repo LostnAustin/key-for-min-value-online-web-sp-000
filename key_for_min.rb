@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
   hash.collect.each_with_index do |name, value, index|
-    
+
 
 # "#{name[0]}"
 end
