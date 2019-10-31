@@ -15,6 +15,7 @@ def key_for_min_value(hash)
   #  name
 end
     end
+    return default_key
 # "#{a}"
 end
 # iterate through the hash array, collecting key(name) value(value) and index
