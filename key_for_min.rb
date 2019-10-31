@@ -3,11 +3,11 @@
 
 def key_for_min_value(hash)
   default = 550
-  default_key = 0
+  default_key = nil
 
   hash.collect do |name, value|
   #  if hash.length == 0
-  if default_key.empty?
+  if name.empty?
       return nil
 
     elsif value < default
