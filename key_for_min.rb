@@ -14,9 +14,9 @@ def key_for_min_value(hash)
 
 
 end
-elsif hash = []
+if hash = []
     return nil
-    
+
     return default_key
 # "#{a}"
 end
