@@ -3,7 +3,8 @@
 
 def key_for_min_value(hash)
   hash.each do |name, value|
-    value <=> name
-  hash[0]
+    value.each do |a, b|
+      a <=> b 
+
 end
 end
