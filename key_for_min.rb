@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(hash)
-  hash_array = hash.to_a
+  
   default = 550
   default_key = 0
 
@@ -11,8 +11,6 @@ def key_for_min_value(hash)
   if value < default
       default = value
       default_key = name
-
-  
 end
     end
     return default_key
