@@ -4,6 +4,7 @@
 def key_for_min_value(hash)
   hash.each do |name, value|
 end
+"#{name[0]}"
 end
 
 #  value.each do |a, b|
