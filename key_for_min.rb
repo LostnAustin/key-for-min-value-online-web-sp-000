@@ -4,6 +4,6 @@
 def key_for_min_value(hash)
   hash.each do |name, value|
     value <=> name
-  hash(0)
+  hash[0]
 end
 end
