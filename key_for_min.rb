@@ -5,7 +5,7 @@ def key_for_min_value(hash)
   array = []
   hash.collect.each_with_index do |a, b|
   
-    
+
 
  #{}"#{name[0]}"
 end
