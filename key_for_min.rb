@@ -9,6 +9,10 @@ def key_for_min_value(hash)
 end
 end
 
+# iterate through the hash array, collecting key(name) value(value) and index
+#return "name" as my key value
+
+
 #  value.each do |a, b|
 #    a <=> b
 #    return name[0]
