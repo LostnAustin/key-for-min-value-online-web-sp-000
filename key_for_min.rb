@@ -4,7 +4,7 @@
 def key_for_min_value(hash)
   hash.collect do |name, value|
      name <=> value
-    name[2]
+    hash[3]
 
     end
 # "#{a}"
