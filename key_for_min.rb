@@ -10,8 +10,6 @@ def key_for_min_value(hash)
       hash.pop(b)
 
     end
-
-    end
  "#{a}"
 end
 end
