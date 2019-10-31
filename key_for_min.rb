@@ -4,7 +4,7 @@
 def key_for_min_value(hash)
   hash.collect do |a, b|
      a <=> b
-     if a < b return a
+     
 
     end
 # "#{a}"
