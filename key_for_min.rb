@@ -3,13 +3,15 @@
 
 def key_for_min_value(hash)
   array = []
-  hash.collect.each_with_index do |a, b|
-
+  hash.collect do |a, b|
+    if a > b == true
+      hash.delete_at(0)
+      break
+    end
 
 
  "#{a}"
 
-end
 end
 # iterate through the hash array, collecting key(name) value(value) and index
 
