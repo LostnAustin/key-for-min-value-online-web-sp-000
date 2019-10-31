@@ -2,7 +2,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(hash)
-  
   default = 550
   default_key = 0
 
@@ -12,13 +11,14 @@ def key_for_min_value(hash)
       default = value
       default_key = name
 end
-    end
     return default_key
+        end
 # "#{a}"
 end
 # iterate through the hash array, collecting key(name) value(value) and index
 
 #return "name" as my key value in the first index spot
+
 
 
 #  value.each do |a, b|
