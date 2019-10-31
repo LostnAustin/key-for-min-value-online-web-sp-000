@@ -9,7 +9,7 @@ def key_for_min_value(hash)
   #  if hash.length == 0
   if name.empty?
       return nil
-    
+
     elsif value < default
       default = value
       default_key = name
