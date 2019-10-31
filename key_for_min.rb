@@ -10,7 +10,7 @@ def key_for_min_value(hash)
   nil unless value < default
       default = value
       default_key = name
-end
+
     end
     return default_key
 # "#{a}"
