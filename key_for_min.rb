@@ -13,7 +13,7 @@ def key_for_min_value(hash)
 end
     end
     return default_key
-  if default_key == []
+  if name == []
     return nil
 end
 end
