@@ -13,6 +13,7 @@ def key_for_min_value(hash)
 end
     end
     return default_key
+  else return nil
 # "#{a}"
 end
 # iterate through the hash array, collecting key(name) value(value) and index
