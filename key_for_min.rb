@@ -11,7 +11,7 @@ def key_for_min_value(hash)
 
 
  "#{a}"
-
+end
 end
 # iterate through the hash array, collecting key(name) value(value) and index
 
