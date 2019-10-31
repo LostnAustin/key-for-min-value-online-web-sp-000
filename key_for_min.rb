@@ -7,19 +7,18 @@ def key_for_min_value(hash)
   default_key = 0
 
   hash.collect do |name, value|
-
+  
   if value < default
       default = value
       default_key = name
 
-
+    elsif hash = []
+        return nil
 end
-if hash = []
-    return nil
-
+    end
     return default_key
 # "#{a}"
-end end end
+end
 # iterate through the hash array, collecting key(name) value(value) and index
 
 #return "name" as my key value in the first index spot
