@@ -7,7 +7,7 @@ def key_for_min_value(hash)
 
 
 
- #{}"#{name[0]}"
+ "#{a}"
 
 end
 end
