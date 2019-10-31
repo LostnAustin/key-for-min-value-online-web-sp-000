@@ -9,7 +9,7 @@ def key_for_min_value(hash)
  #{}"#{name[0]}"
 end
 end
-
+end
 # iterate through the hash array, collecting key(name) value(value) and index
 
 #return "name" as my key value in the first index spot
