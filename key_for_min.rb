@@ -7,7 +7,7 @@ def key_for_min_value(hash)
     if a > b
       hash.delete_at(0)
     end
- hash
+ "#{a}"
 end
 end
 # iterate through the hash array, collecting key(name) value(value) and index
